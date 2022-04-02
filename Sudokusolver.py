@@ -71,8 +71,8 @@ class SudokuSolver:
             self.arr[row][col] = 0
         return False
 
-
-s = SudokuSolver(g)
-s.solve()
+if __name__ == "__main__":
+     s = SudokuSolver(g)
+     s.solve()
 
 
